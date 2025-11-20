@@ -1,0 +1,22 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:         Requirement_MU   No. Observations:                   88
+Model:                 ARIMA(0, 1, 0)   Log Likelihood                -896.560
+Date:                Thu, 20 Nov 2025   AIC                           1795.120
+Time:                        12:26:47   BIC                           1797.586
+Sample:                             0   HQIC                          1796.113
+                                 - 88                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+sigma2      5.171e+07   6.85e+06      7.545      0.000    3.83e+07    6.51e+07
+===================================================================================
+Ljung-Box (L1) (Q):                   5.11   Jarque-Bera (JB):                 1.53
+Prob(Q):                              0.02   Prob(JB):                         0.47
+Heteroskedasticity (H):               3.20   Skew:                             0.20
+Prob(H) (two-sided):                  0.00   Kurtosis:                         3.51
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

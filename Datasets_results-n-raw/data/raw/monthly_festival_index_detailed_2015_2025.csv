@@ -1,0 +1,129 @@
+Year,Month,Month_Name,Festival_Index,Seasonal_Adjustment,Monthly_Festival_Index,Number_of_Festivals,Festivals_List
+2015,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2015,2,February,3.5,0.0,3.5,1,Maha_Shivaratri
+2015,3,March,7.5,0.0,7.5,2,"Holi, Ram_Navami"
+2015,4,April,8.5,0.0,8.5,3,"Good_Friday, Mahavir_Jayanti, Baisakhi"
+2015,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2015,6,June,0.0,1.5,1.5,0,None
+2015,7,July,4.5,0.0,4.5,1,Eid_ul_Fitr
+2015,8,August,6.5,0.0,6.5,2,"Raksha_Bandhan, Independence_Day"
+2015,9,September,14.0,0.0,14.0,4,"Janmashtami, Ganesh_Chaturthi, Eid_ul_Adha, Onam"
+2015,10,October,16.0,0.5,16.5,5,"Navratri_Sharad, Dussehra, Muharram, Durga_Puja, Gandhi_Jayanti"
+2015,11,November,8.0,0.5,8.5,2,"Diwali, Guru_Nanak_Jayanti"
+2015,12,December,5.0,1.0,6.0,1,Christmas
+2016,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2016,2,February,0.0,0.0,0.0,0,None
+2016,3,March,11.5,0.0,11.5,3,"Holi, Maha_Shivaratri, Good_Friday"
+2016,4,April,8.0,0.0,8.0,3,"Ram_Navami, Mahavir_Jayanti, Baisakhi"
+2016,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2016,6,June,0.0,1.5,1.5,0,None
+2016,7,July,4.5,0.0,4.5,1,Eid_ul_Fitr
+2016,8,August,10.0,0.0,10.0,3,"Janmashtami, Raksha_Bandhan, Independence_Day"
+2016,9,September,10.5,0.0,10.5,3,"Ganesh_Chaturthi, Eid_ul_Adha, Onam"
+2016,10,October,21.0,0.5,21.5,6,"Diwali, Navratri_Sharad, Dussehra, Muharram, Durga_Puja, Gandhi_Jayanti"
+2016,11,November,3.0,0.5,3.5,1,Guru_Nanak_Jayanti
+2016,12,December,5.0,1.0,6.0,1,Christmas
+2017,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2017,2,February,3.5,0.0,3.5,1,Maha_Shivaratri
+2017,3,March,4.5,0.0,4.5,1,Holi
+2017,4,April,11.5,0.0,11.5,4,"Ram_Navami, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2017,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2017,6,June,4.5,1.5,6.0,1,Eid_ul_Fitr
+2017,7,July,0.0,0.0,0.0,0,None
+2017,8,August,13.5,0.0,13.5,4,"Janmashtami, Ganesh_Chaturthi, Raksha_Bandhan, Independence_Day"
+2017,9,September,18.0,0.0,18.0,5,"Navratri_Sharad, Dussehra, Eid_ul_Adha, Onam, Durga_Puja"
+2017,10,October,10.0,0.5,10.5,3,"Diwali, Muharram, Gandhi_Jayanti"
+2017,11,November,3.0,0.5,3.5,1,Guru_Nanak_Jayanti
+2017,12,December,5.0,1.0,6.0,1,Christmas
+2018,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2018,2,February,3.5,0.0,3.5,1,Maha_Shivaratri
+2018,3,March,13.5,0.0,13.5,4,"Holi, Ram_Navami, Good_Friday, Mahavir_Jayanti"
+2018,4,April,5.0,0.0,5.0,2,"Buddha_Purnima, Baisakhi"
+2018,5,May,0.0,1.5,1.5,0,None
+2018,6,June,4.5,1.5,6.0,1,Eid_ul_Fitr
+2018,7,July,0.0,0.0,0.0,0,None
+2018,8,August,13.5,0.0,13.5,4,"Raksha_Bandhan, Eid_ul_Adha, Onam, Independence_Day"
+2018,9,September,9.5,0.0,9.5,3,"Janmashtami, Ganesh_Chaturthi, Muharram"
+2018,10,October,13.5,0.5,14.0,4,"Navratri_Sharad, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2018,11,November,8.0,0.5,8.5,2,"Diwali, Guru_Nanak_Jayanti"
+2018,12,December,5.0,1.0,6.0,1,Christmas
+2019,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2019,2,February,0.0,0.0,0.0,0,None
+2019,3,March,8.0,0.0,8.0,2,"Holi, Maha_Shivaratri"
+2019,4,April,11.5,0.0,11.5,4,"Ram_Navami, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2019,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2019,6,June,4.5,1.5,6.0,1,Eid_ul_Fitr
+2019,7,July,0.0,0.0,0.0,0,None
+2019,8,August,14.0,0.0,14.0,4,"Janmashtami, Raksha_Bandhan, Eid_ul_Adha, Independence_Day"
+2019,9,September,12.5,0.0,12.5,4,"Navratri_Sharad, Ganesh_Chaturthi, Muharram, Onam"
+2019,10,October,15.0,0.5,15.5,4,"Diwali, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2019,11,November,3.0,0.5,3.5,1,Guru_Nanak_Jayanti
+2019,12,December,5.0,1.0,6.0,1,Christmas
+2020,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2020,2,February,3.5,0.0,3.5,1,Maha_Shivaratri
+2020,3,March,4.5,0.0,4.5,1,Holi
+2020,4,April,11.5,0.0,11.5,4,"Ram_Navami, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2020,5,May,7.0,1.5,8.5,2,"Eid_ul_Fitr, Buddha_Purnima"
+2020,6,June,0.0,1.5,1.5,0,None
+2020,7,July,4.0,0.0,4.0,1,Eid_ul_Adha
+2020,8,August,19.0,0.0,19.0,6,"Janmashtami, Ganesh_Chaturthi, Raksha_Bandhan, Muharram, Onam, Independence_Day"
+2020,9,September,0.0,0.0,0.0,0,None
+2020,10,October,13.5,0.5,14.0,4,"Navratri_Sharad, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2020,11,November,8.0,0.5,8.5,2,"Diwali, Guru_Nanak_Jayanti"
+2020,12,December,5.0,1.0,6.0,1,Christmas
+2021,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2021,2,February,0.0,0.0,0.0,0,None
+2021,3,March,8.0,0.0,8.0,2,"Holi, Maha_Shivaratri"
+2021,4,April,11.5,0.0,11.5,4,"Ram_Navami, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2021,5,May,7.0,1.5,8.5,2,"Eid_ul_Fitr, Buddha_Purnima"
+2021,6,June,0.0,1.5,1.5,0,None
+2021,7,July,4.0,0.0,4.0,1,Eid_ul_Adha
+2021,8,August,15.5,0.0,15.5,5,"Janmashtami, Raksha_Bandhan, Muharram, Onam, Independence_Day"
+2021,9,September,3.5,0.0,3.5,1,Ganesh_Chaturthi
+2021,10,October,13.5,0.5,14.0,4,"Navratri_Sharad, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2021,11,November,8.0,0.5,8.5,2,"Diwali, Guru_Nanak_Jayanti"
+2021,12,December,5.0,1.0,6.0,1,Christmas
+2022,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2022,2,February,0.0,0.0,0.0,0,None
+2022,3,March,8.0,0.0,8.0,2,"Holi, Maha_Shivaratri"
+2022,4,April,11.5,0.0,11.5,4,"Ram_Navami, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2022,5,May,7.0,1.5,8.5,2,"Eid_ul_Fitr, Buddha_Purnima"
+2022,6,June,0.0,1.5,1.5,0,None
+2022,7,July,4.0,0.0,4.0,1,Eid_ul_Adha
+2022,8,August,16.0,0.0,16.0,5,"Janmashtami, Ganesh_Chaturthi, Raksha_Bandhan, Muharram, Independence_Day"
+2022,9,September,6.5,0.0,6.5,2,"Navratri_Sharad, Onam"
+2022,10,October,15.0,0.5,15.5,4,"Diwali, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2022,11,November,3.0,0.5,3.5,1,Guru_Nanak_Jayanti
+2022,12,December,5.0,1.0,6.0,1,Christmas
+2023,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2023,2,February,3.5,0.0,3.5,1,Maha_Shivaratri
+2023,3,March,7.5,0.0,7.5,2,"Holi, Ram_Navami"
+2023,4,April,13.0,0.0,13.0,4,"Eid_ul_Fitr, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2023,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2023,6,June,4.0,1.5,5.5,1,Eid_ul_Adha
+2023,7,July,2.5,0.0,2.5,1,Muharram
+2023,8,August,9.5,0.0,9.5,3,"Raksha_Bandhan, Onam, Independence_Day"
+2023,9,September,7.0,0.0,7.0,2,"Janmashtami, Ganesh_Chaturthi"
+2023,10,October,13.5,0.5,14.0,4,"Navratri_Sharad, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2023,11,November,8.0,0.5,8.5,2,"Diwali, Guru_Nanak_Jayanti"
+2023,12,December,5.0,1.0,6.0,1,Christmas
+2024,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2024,2,February,0.0,0.0,0.0,0,None
+2024,3,March,11.5,0.0,11.5,3,"Holi, Maha_Shivaratri, Good_Friday"
+2024,4,April,12.5,0.0,12.5,4,"Ram_Navami, Eid_ul_Fitr, Mahavir_Jayanti, Baisakhi"
+2024,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2024,6,June,4.0,1.5,5.5,1,Eid_ul_Adha
+2024,7,July,2.5,0.0,2.5,1,Muharram
+2024,8,August,6.5,0.0,6.5,2,"Raksha_Bandhan, Independence_Day"
+2024,9,September,10.0,0.0,10.0,3,"Janmashtami, Ganesh_Chaturthi, Onam"
+2024,10,October,13.5,0.5,14.0,4,"Navratri_Sharad, Dussehra, Durga_Puja, Gandhi_Jayanti"
+2024,11,November,8.0,0.5,8.5,2,"Diwali, Guru_Nanak_Jayanti"
+2024,12,December,5.0,1.0,6.0,1,Christmas
+2025,1,January,9.0,0.0,9.0,3,"Makar_Sankranti, Pongal, Republic_Day"
+2025,2,February,3.5,0.0,3.5,1,Maha_Shivaratri
+2025,3,March,9.0,0.0,9.0,2,"Holi, Eid_ul_Fitr"
+2025,4,April,11.5,0.0,11.5,4,"Ram_Navami, Good_Friday, Mahavir_Jayanti, Baisakhi"
+2025,5,May,2.5,1.5,4.0,1,Buddha_Purnima
+2025,6,June,4.0,1.5,5.5,1,Eid_ul_Adha
+2025,7,July,2.5,0.0,2.5,1,Muharram
+2025,8,August,13.5,0.0,13.5,4,"Janmashtami, Ganesh_Chaturthi, Raksha_Bandhan, Independence_Day"
