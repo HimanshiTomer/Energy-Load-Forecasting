@@ -1,0 +1,213 @@
+
+================================================================================
+TIME SERIES FORECASTING PROJECT - COMPREHENSIVE SUMMARY REPORT
+================================================================================
+Generated: 2025-11-20 12:30:58
+Author: JIMS Rohini Student
+Project: Electricity Demand Forecasting for India
+
+================================================================================
+1. DATASET INFORMATION
+================================================================================
+
+Target Variable: Electricity Requirement (MU)
+Date Range: April 2015 to August 2025
+Total Observations: 126
+
+Exogenous Variables (SARIMAX):
+  - Monthly Festival Index
+  - Temperature Mean (°C)
+  - IIP Year-over-Year Growth (%)
+
+Data Split:
+  - Training Set: 88 months (69.8%)
+    Range: 2015-04 to 2022-07
+
+  - Validation Set: 18 months (14.3%)
+    Range: 2022-08 to 2024-01
+
+  - Test Set: 20 months (15.9%)
+    Range: 2024-02 to 2025-08
+
+================================================================================
+2. STATIONARITY ANALYSIS
+================================================================================
+
+Augmented Dickey-Fuller (ADF) Test:
+  Test Statistic: 0.766288
+  p-value: 0.991072
+  Result: NON-STATIONARY
+
+KPSS Test:
+  Test Statistic: 1.682922
+  p-value: 0.010000
+  Result: NON-STATIONARY
+
+================================================================================
+3. MODEL SPECIFICATIONS
+================================================================================
+
+MODEL 1: ARIMA
+  Parameters: (0, 1, 0)
+  AIC: 1795.12
+  Parameter Selection: Grid Search
+
+MODEL 2: SARIMA
+  Order (p,d,q): (0, 1, 2)
+  Seasonal (P,D,Q,m): (1, 1, 1, 12)
+  AIC: 1547.44
+  Parameter Selection: Grid Search
+
+MODEL 3: SARIMAX
+  Order (p,d,q): (1, 1, 1)
+  Seasonal (P,D,Q,m): (0, 1, 1, 12)
+  Exogenous Variables: 3 (Festival Index, Temperature, IIP)
+  AIC: 1513.48
+  Parameter Selection: Grid Search
+
+================================================================================
+4. VALIDATION SET PERFORMANCE
+================================================================================
+
+ARIMA:
+  MAE:  8,761.11 MU
+  RMSE: 10,659.01 MU
+  MAPE: 6.74%
+  R²:   -0.0134
+  Directional Accuracy: 41.18%
+
+SARIMA:
+  MAE:  4,949.42 MU
+  RMSE: 5,869.98 MU
+  MAPE: 3.78%
+  R²:   0.6927
+  Directional Accuracy: 82.35%
+
+SARIMAX:
+  MAE:  4,813.69 MU
+  RMSE: 5,702.15 MU
+  MAPE: 3.63%
+  R²:   0.7100
+  Directional Accuracy: 88.24%
+
+================================================================================
+5. TEST SET PERFORMANCE (FINAL EVALUATION)
+================================================================================
+
+ARIMA:
+  MAE:  15,055.40 MU
+  RMSE: 17,174.75 MU
+  MAPE: 10.18%
+  R²:   -2.4903
+  Directional Accuracy: 52.63%
+
+SARIMA:
+  MAE:  6,215.46 MU
+  RMSE: 7,024.21 MU
+  MAPE: 4.37%
+  R²:   0.4162
+  Directional Accuracy: 73.68%
+
+SARIMAX:
+  MAE:  13,443.74 MU
+  RMSE: 16,628.95 MU
+  MAPE: 9.69%
+  R²:   -2.2719
+  Directional Accuracy: 78.95%
+
+================================================================================
+6. BEST MODEL SELECTION
+================================================================================
+
+Based on Test Set Performance:
+
+Best MAE:  SARIMA (6,215.46 MU)
+Best RMSE: SARIMA (7,024.21 MU)
+Best MAPE: SARIMA (4.37%)
+Best R²:   SARIMA (0.4162)
+Best Directional Accuracy: SARIMAX (78.95%)
+
+================================================================================
+7. FUTURE FORECASTS (6 MONTHS AHEAD)
+================================================================================
+
+Forecast Period: September 2025 - February 2026
+
+      Date  ARIMA_Forecast  SARIMA_Forecast  SARIMAX_Forecast
+2025-09-01        128689.0    132288.613530     130915.809852
+2025-10-01        128689.0    123021.603344     120859.438237
+2025-11-01        128689.0    123158.274483     113349.658820
+2025-12-01        128689.0    111104.345808     102562.785613
+2026-01-01        128689.0    118853.069657     116170.619259
+2026-02-01        128689.0    121370.343238     131048.473105
+
+================================================================================
+8. MODEL DIAGNOSTICS
+================================================================================
+
+Ljung-Box Test Results (p-values < 0.05 indicate autocorrelation):
+  ARIMA:   See detailed results in ARIMA_ljung_box_test.csv
+  SARIMA:  See detailed results in SARIMA_ljung_box_test.csv
+  SARIMAX: See detailed results in SARIMAX_ljung_box_test.csv
+
+Normality Tests:
+  ARIMA Residuals:   Shapiro p-value = 0.000000 (Non-normal)
+  SARIMA Residuals:  Shapiro p-value = 0.000000 (Non-normal)
+  SARIMAX Residuals: Shapiro p-value = 0.000803 (Non-normal)
+
+================================================================================
+9. KEY INSIGHTS
+================================================================================
+
+1. Seasonal Pattern: The data shows strong seasonality with period = 12 months
+2. Trend: Downward trend observed
+3. Exogenous Variables Impact: SARIMAX incorporates festival patterns, temperature, 
+   and industrial production which affect electricity demand
+4. Best Performer: SARIMA achieved lowest prediction error
+
+================================================================================
+10. FILES GENERATED
+================================================================================
+
+Data Files:
+  - merged_data.csv (Cleaned and merged dataset)
+  - future_forecasts_6months.csv (6-month ahead forecasts)
+
+Model Reports:
+  - ARIMA_model_summary.txt
+  - SARIMA_model_summary.txt
+  - SARIMAX_model_summary.txt
+  - ARIMA_grid_search_results.csv
+  - SARIMA_grid_search_results.csv
+  - SARIMAX_grid_search_results.csv
+
+Evaluations:
+  - model_comparison_metrics.csv
+  - descriptive_statistics.csv
+  - correlation_matrix.csv
+  - stationarity_tests.csv
+  - normality_tests.csv
+  - seasonal_decomposition.csv
+  - ARIMA_ljung_box_test.csv
+  - SARIMA_ljung_box_test.csv
+  - SARIMAX_ljung_box_test.csv
+
+Visualizations:
+  - 01_time_series_overview.png
+  - 02_correlation_matrix.png
+  - 03_distributions.png
+  - 04_seasonal_decomposition.png
+  - 05_train_val_test_split.png
+  - 06_acf_pacf_plots.png
+  - 07_ARIMA_residuals.png
+  - 08_SARIMA_residuals.png
+  - 09_SARIMAX_residuals.png
+  - 10_model_comparison.png
+  - 11_actual_vs_predicted_individual.png
+  - 12_actual_vs_predicted_all_models.png
+  - 13_test_set_comparison.png
+  - 14_future_forecasts.png
+
+================================================================================
+END OF REPORT
+================================================================================
